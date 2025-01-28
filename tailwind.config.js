@@ -10,7 +10,10 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        'san': ['Inter', 'sans-serif']
+        'san': ['Inter', 'sans-serif']   
+      },
+      transitionProperty: {
+        'top-left': 'top, left',
       }
     },
   },

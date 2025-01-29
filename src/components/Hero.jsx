@@ -20,7 +20,7 @@ const Hero = () => {
                     <img src="/images/avatar.jpg"
                     width={40}
                     height={40}
-                     alt="Lemark Sumalpong Profile"
+                     alt="Lemark Avatar"
                      className="img-cover"
                       />
                 </figure>
@@ -58,7 +58,7 @@ const Hero = () => {
 
         <div className="hidden lg:block ">
             <figure className="w-full max-w-[480px] ml-auto
-            bg-gradient-to-t from-sky-400 via-25% via-sky-400/40
+            bg-gradient-to-t from-blue-700 via-10% via-sky-600/50
             to-65% rounded-[60px] overflow-hidden ">
                 <img 
                 src="images/hero-banner.png"

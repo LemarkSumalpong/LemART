@@ -9,4 +9,4 @@ Currently, two official plugins are available:
 
 
 A personal project portfolio for future use
-This project has a reference and inspired from the works of other 
+-This project has a reference and inspired from the works of other 

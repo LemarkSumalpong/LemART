@@ -79,6 +79,10 @@ body{
     @apply absolute bg-zinc-50 rounded-lg
     -z-10 transition-top-left  duration-500;
 }
+
+/*---------------- *\
+ *Button
+\* ----------------*/ 
 .btn {
     @apply max-w-max h-9 flex items-center gap-2 px-4
     rounded-xl font-medium text-sm ring-1 ring-zinc-50/5
@@ -86,4 +90,18 @@ body{
 }
 .btn-secondary{
     @apply bg-zinc-50 text-zinc-900 active:bg-zinc-50/80;
+}
+.btn .material-symbols-rounded{
+    @apply text-[18px]
+}
+.btn:has( .material-symbols-rounded){
+    @apply pr-3
+}
+.btn-primary {
+    @apply h-11 bg-blue-700 text-zinc-100 hover:bg-violet-500
+    active:bg-blue-700
+}
+.btn-outline{
+    @apply h-11 bg-zinc-800 hover:bg-zinc-700
+     active:bg-zinc-800
 }

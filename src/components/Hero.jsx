@@ -3,6 +3,7 @@
  * @license Apache-2.0
  */
 
+import {ButtonPrimary, ButtonOutline} from "./Button";
 
 const Hero = () => {
   return (
@@ -42,8 +43,16 @@ const Hero = () => {
             </h2>
 
             <div className="flex items-center gap-3">
-                ButtonPrimary 
-                ButtonOutline
+                <ButtonPrimary
+                label = "Download CV"
+                icon="download" 
+                />
+                <ButtonOutline
+                href="#about"
+                label="View More" 
+                icon ="arrow_downward"
+                />
+                
             </div>
         </div>
 

@@ -3,7 +3,7 @@
  * @license Apache-2.0
  */
 
-import PropTypes from "prop-types";
+import propTypes from "prop-types";
 
 const ButtonPrimary = ({
     href,
@@ -48,12 +48,12 @@ const ButtonPrimary = ({
    }
 }
 
-ButtonPrimary.PropTypes = {
-    label: PropTypes.string.isRequired,
-    href: PropTypes.string,
-    target: PropTypes.string,
-    icons: PropTypes.string,
-    classes: PropTypes.string
+ButtonPrimary.propTypes = {
+    label: propTypes.string.isRequired,
+    href: propTypes.string,
+    target: propTypes.string,
+    icons: propTypes.string,
+    classes: propTypes.string
 }
 /**
  * Secondary button
@@ -102,11 +102,11 @@ const ButtonOutline = ({
    }
 }
 
-ButtonOutline.PropTypes = {
-    label: PropTypes.string.isRequired,
-    href: PropTypes.string,
-    target: PropTypes.string,
-    icons: PropTypes.string,
-    classes: PropTypes.string
+ButtonOutline.propTypes = {
+    label: propTypes.string.isRequired,
+    href: propTypes.string,
+    target: propTypes.string,
+    icons: propTypes.string,
+    classes: propTypes.string
 }
 export {ButtonPrimary, ButtonOutline}

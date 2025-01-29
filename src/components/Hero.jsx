@@ -5,6 +5,11 @@
 
 import {ButtonPrimary, ButtonOutline} from "./Button";
 
+
+const CV = "/CV.pdf";
+
+
+
 const Hero = () => {
   return (
    <section
@@ -44,6 +49,8 @@ const Hero = () => {
 
             <div className="flex items-center gap-3">
                 <ButtonPrimary
+                href={CV}
+                download ="CV"
                 label = "Download CV"
                 icon="download" 
                 />

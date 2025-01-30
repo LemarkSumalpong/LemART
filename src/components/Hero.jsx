@@ -56,6 +56,7 @@ const Hero = () => {
                 />
                 <ButtonOutline
                 href="#about"
+                target="_self"
                 label="View More" 
                 icon ="arrow_downward"
                 />

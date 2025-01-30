@@ -3,6 +3,8 @@
  * @license Apache-2.0
  */
 
+import Skillcard from "./Skillcard";
+
 const skillItem = [
     {
       imgSrc: '/images/figma.svg',
@@ -18,21 +20,6 @@ const skillItem = [
       imgSrc: '/images/javascript.svg',
       label: 'JavaScript',
       desc: 'Interaction'
-    },
-    {
-      imgSrc: '/images/nodejs.svg',
-      label: 'NodeJS',
-      desc: 'Web Server'
-    },
-    {
-      imgSrc: '/images/expressjs.svg',
-      label: 'ExpressJS',
-      desc: 'Node Framework'
-    },
-    {
-      imgSrc: '/images/mongodb.svg',
-      label: 'MongoDB',
-      desc: 'Database'
     },
     {
       imgSrc: '/images/react.svg',
@@ -53,12 +40,19 @@ const Skills = () => {
             <h2 className="headline-2">
                 Tools I used
             </h2>
-            <p className="">
+            <p className="text-zinc-400 mt-3 mb-8 max-w-[50ch]">
             Discover the powerful tools and technologies I use to create exceptional, high-performing websites & applications.
             </p>
             <div className="">
                 {
-                    skillItem.map(({imgSrc, label, desc}, key))
+                    skillItem.map(({imgSrc, label, desc}, key) =>
+                    (
+                       < Skillcard 
+                            imgSrc= {imgSrc}
+                            label= {label}
+                            desc= {desc}
+                       />
+                    ))
                 }
             </div>
         </div>

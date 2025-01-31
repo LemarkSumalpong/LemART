@@ -23,7 +23,7 @@ const ProjectCard = ({
             className = "img-cover"
             />
         </figure>
-        <div className="">
+        <div className="flex item-center justify-between gap-4">
             <div>
                 <h3 className="title-1">
                     {title}

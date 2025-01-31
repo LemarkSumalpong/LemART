@@ -2,6 +2,7 @@
  * @copyright 2025 Lemark Sumalpong
  * @license Apache-2.0
  */
+import ProjectCard from "./ProjectCard";
 
 const works = [
     {
@@ -54,7 +55,13 @@ const Project = () => {
             </h2>
             <div className="">
                {works.map(({imgSrc, title, tags, projectLink}, key) =>(
-                'ProjectCard'
+                <ProjectCard
+                key={key}
+                imgSrc={imgSrc}
+                title={title}
+                tags={tags}
+                projectLink={projectLink}
+                />
                )
             )}
             </div>

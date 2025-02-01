@@ -25,14 +25,15 @@ const ProjectCard = ({
         </figure>
         <div className="flex item-center justify-between gap-4">
             <div>
-                <h3 className="title-1">
+                <h3 className="title-1 mb-3">
                     {title}
                 </h3>
-                <div className="">
+                <div className="flex flex-wrap items-center gap-2">
                     {tags.map((label, key) =>(
                         <span 
                         key={key}     
-                        className=""
+                        className="h-8 text-sm text-zinc-400 bg:zinc-50/5 grid
+                         items-center px-3 rounded-lg"
                         >
                             {label}
                         </span>

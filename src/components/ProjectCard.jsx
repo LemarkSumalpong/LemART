@@ -32,9 +32,7 @@ const ProjectCard = ({
                     {tags.map((label, key) =>(
                         <span 
                         key={key}     
-                        className="h-8 text-sm text-zinc-400 bg:zinc-50/5 grid
-                         items-center px-3 rounded-lg"
-                        >
+                        className="h-8 text-sm text-zinc-400 bg-zinc-50/5 grid items-center px-3 rounded-lg">
                             {label}
                         </span>
 
@@ -42,7 +40,8 @@ const ProjectCard = ({
                 </div>
             </div>
 
-            <div className="">
+            <div className="w-11 h-11 rounded-lg grid
+            place-items-center bg-sky-400 text-zinc-950 shrink-0">
                 <span
                  className="material-symbols-rounded"
                  aria-hidden= "true"

@@ -6,15 +6,25 @@
 import propTypes from "prop-types"
 
 
-const ReviewCard = () => {
+const ReviewCard = ({
+    content,
+    imgSrc,
+    name,
+    company,
+}) => {
   return (
-    <div>
-      ReviewCard
+    <div className="">
+       
     </div>
   )
 }
 
 ReviewCard.propTypes ={
+    content: propTypes.string.isRequired,
+    imgSrc: proptTypes.string.isRequired,
+    name: propTypes.string.isRequired,
+    company: propTypes.string.isRequired
+
 
 }
 

@@ -55,7 +55,7 @@ const ProjectCard = ({
         <a 
         href={projectLink}
         target='_blank'
-        className=""
+        className="absolute inset-0"
         >           
         </a>
 

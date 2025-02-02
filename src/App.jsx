@@ -8,7 +8,6 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Skills from "./components/Skills";
 import Project from "./components/Project";
-import Reviews from "./components/Reviews";
 
 const App = () => {
   return (
@@ -19,7 +18,6 @@ const App = () => {
       <About />
       <Skills />
       <Project />
-      <Reviews />
     </main>
     
     </>

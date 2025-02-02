@@ -1,6 +1,5 @@
 {
   "name": "lemark-sumalpong",
-  "homepage": "https://github.com/LemarkSumalpong.github.io/Lemark-Personal-Projects/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,9 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
+
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",

@@ -46,7 +46,7 @@ const Contact = () => {
      id="contact"
      className="section"
      >
-        <div className="container">
+        <div className="container lg:grid lg:grid-cols-2">
 
             <div className="">
 
@@ -74,8 +74,62 @@ const Contact = () => {
 
             </div>
 
-        </div>
+        
 
+        <form action="" 
+         method= "POST"
+         className=""
+         >
+
+            <div className="">
+
+                <div className="">
+                    <label 
+                     htmlFor="email"
+                     className="label"
+                    >
+                       Email
+                    </label>
+
+                    <input 
+                     type="email"
+                     name="email" 
+                     id="email"
+                     autoComplete="email" 
+                     required
+                     placeholder="sumalponglemark2@gmail.com"
+                     className="text-field"
+                    />
+
+                </div>
+                </div>
+
+                <div className="">
+                    <label 
+                     htmlFor="message" 
+                     className="label"
+                     >
+                     Message    
+                    </label>
+                    <textarea 
+                     name="message" 
+                     id="message"
+                     placeholder="type your message"
+                     required
+                     className="text-field"
+                    >
+                    </textarea>
+                </div>
+
+                <button type="submit"
+                 className="btn btn-primary"
+                 >
+                    Submit
+                </button>
+
+            
+         </form>
+         </div>
     </section>
   )
 }

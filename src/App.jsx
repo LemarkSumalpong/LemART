@@ -4,6 +4,11 @@
  */
 
 import { ReactLenis, useLenis } from 'lenis/react'
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+
+gsap.registerPlugin(ScrollTrigger);
 
 import Header from "./components/Header";
 import Hero from "./components/Hero";

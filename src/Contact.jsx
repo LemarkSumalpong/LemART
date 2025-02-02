@@ -80,7 +80,7 @@ const Contact = () => {
 
         
 
-        <form action="" 
+        <form action="https://getform.io/f/aejjggxb" 
          method= "POST"
          className="xl:pl-10 2xl:pl-20"
          >

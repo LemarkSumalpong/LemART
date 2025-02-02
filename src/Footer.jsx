@@ -9,6 +9,7 @@ const sitemap = [
     {
       label: 'Home',
       href: '#home'
+      
     },
     {
       label: 'About',
@@ -103,7 +104,7 @@ const Footer = () => {
                 </div>                
             </div>
 
-            <div className="">
+            <div className="flex items-center justify-between pt-10 mb-8 ">
                 <a 
                  href=""
                  className=""
@@ -116,8 +117,11 @@ const Footer = () => {
                     />
                  </a>
 
-                 <p className="">
-                    &copy; 2025 <span className="">Lemark Sumalpong</span>
+                 <p className="text-zinc-500 text-sm">
+                    &copy; 2025 <span 
+                    className="text-zinc-200">
+                        Lemark Sumalpong
+                    </span>
                  </p>
             </div>
         </div>    
